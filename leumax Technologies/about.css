@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    background-color:#ffffff ;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    width:150px;
+    height: 30px;
+    padding-left: 50px;
+    margin-top: 12px;
+    margin-right: 250px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    background-color: #ffffff;
+    
+}
+nav a{
+    display: block;
+    padding: 0 10px;
+    color: #000000;
+    line-height: 55px;
+    font-size: 17px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* Hide Dropdown by Default*/
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+    
+}
+/* hover */
+nav a:hover{
+    background-color:  #F37335;
+    ;
+}
+/* Display Dropdown on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li{
+    width: 140px;
+    float: none;
+    display: list-item;
+    position: relative;
+    
+}
+
+.arrow{
+    width: 11px;
+    margin-left: 5px;
+    color: #000000;
+}
+
+.button {
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    margin-left: 260px;
+    font-weight: 600;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./about\ pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+h2{
+    padding-top: 250px;
+    text-align: center;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60px;
+    padding-bottom: 15px;
+}
+
+p{
+    text-align: center; 
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    margin-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    margin-left: 390px;
+   
+}
+
+.topic{
+    padding-top: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#toggleButton {
+    background-color: #ffffff;
+    color:#000000;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 240px;
+}
+
+#content {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+  .mission{
+    color: #000000;
+  }
+
+  .list-container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    padding-top: 20px;
+}
+
+.list {
+    line-height: 1.8;
+    padding-left: 270px;
+    text-align: left; /* Align text to the left */
+}
+
+
+
+.list img {
+    vertical-align: middle; /* Align images vertically in the middle */
+    margin-right: 10px; /* Add margin to separate images and text */
+}
+
+
+.our-mission{
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header2{
+    display: flex;
+    margin-left: 390px;
+   
+}
+
+.topic1{
+    padding-top: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#toggleButton1{
+    background-color: #ffffff;
+    color:#000000;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 380px;
+}
+
+.header3{
+    display: flex;
+    margin-left: 390px;
+   
+}
+
+.Our-Goals{
+    color:#000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.topic2{
+    padding-top: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#toggleButton2{
+    background-color: #ffffff;
+    color:#000000;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 400px;
+}
+
+.Team{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+}
+
+.team-speech{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    padding-top: 10px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.team-member{
+    text-align: start;
+}
+
+.team-member h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+}
+
+.team-leads{
+   padding-left: 140px; 
+   margin-bottom: 90px;
+   display: inline-flex;
+}
+
+.team1{
+    width:270px;
+    padding-right: 14px;
+}
+
+.team2{
+    width:270px;
+    padding-right: 14px;
+}
+
+.team3{
+    width:270px; 
+    padding-right: 14px;
+}
+
+.team4{
+    width:270px; 
+    padding-right: 14px;
+}
+
+.position{
+    color: #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+}
+
+.Last-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F37335;
+    color: white;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    padding:  1.1rem  1.1rem; 
+  }
+  
+  footer {
+    background-color: #000000;
+    padding-bottom: 50px;
+    
+  }
+  
+  .footer-allign {
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding-top: 40px;
+  }
+  
+  .leu {
+    width: 150px;
+    height: 30px;
+    margin-left: 90px; /* Add margin to separate the logo from the list */
+    margin-right: 490px;
+  }
+  
+  footer ul {
+    list-style: none;
+    position: relative;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  footer li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 10px;
+    line-height: 55px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  footer ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+  }
+  
+  .drop {
+    width: 14px;
+    margin-left: 5px;
+    color: white;
+  }
+  
+  footer ul ul li {
+    width: 130px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  footer a:hover {
+    background-color: #F37335;
+  }
+  
+  /* Display Dropdown on Hover */
+  footer ul li:hover > ul {
+    display: inherit;
+  }
+  
+  .line {
+    width: 1200px;
+    height: 1.2px;
+    background-color: white;
+    margin: 20px auto; /* Center the line horizontally */
+    margin-top: 150px;
+  }
+  
+  .cookies{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }

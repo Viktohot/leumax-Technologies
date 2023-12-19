@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    background-color:#ffffff ;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    width:150px;
+    height: 30px;
+    padding-left: 50px;
+    margin-top: 12px;
+    margin-right: 250px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    background-color: #ffffff;
+    
+}
+nav a{
+    display: block;
+    padding: 0 10px;
+    color: #000000;
+    line-height: 55px;
+    font-size: 17px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* Hide Dropdown by Default*/
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+    
+}
+/* hover */
+nav a:hover{
+    background-color:  #F37335;
+    ;
+}
+/* Display Dropdown on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li{
+    width: 140px;
+    float: none;
+    display: list-item;
+    position: relative;
+    
+}
+
+.arrow{
+    width: 11px;
+    margin-left: 5px;
+    color: #000000;
+}
+
+.button {
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    margin-left: 260px;
+    font-weight: 600;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./phone.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+h2{
+    padding-top: 210px;
+    text-align: center;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60px;
+    padding-bottom: 6px;
+}
+
+p{
+    text-align: center; 
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-container{
+    width: 800px;
+    height: 450px;
+    border: 1.7px solid #CCCCCC;
+    margin-left: 275px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+ /* Style for the left container (form-details) */
+ .form-details {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    
+}
+
+
+
+/* Style for the form fields */
+.form-details div {
+    margin-bottom: 15px;
+    display: block;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.form-details img {
+    margin-right: 10px;
+    
+}
+
+.phone-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 600;
+    height: 32px;
+ 
+}
+
+.phone-icon{
+    height: 15px;
+    width: 15px;
+    font-weight: 600;
+}
+
+.input1{
+    border: 1.5px solid #9e9e9e;
+    width: 320px;
+    height: 37px;
+    margin-top: 10px;
+    padding-left: 9px;
+}
+
+.email{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 600;
+    height: 32px;
+    
+}
+
+.email-icon{
+    height: 15px;
+    width: 15px;
+    font-weight: 600;
+}
+
+.input2{
+    border: 1.5px solid #9e9e9e;
+    width: 320px;
+    height: 37px;
+    margin-top: 10px;
+    padding-left: 9px;
+}
+
+.place{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight:bold;
+    height: 32px;
+
+}
+
+.location-icon{
+    height: 15px;
+    width: 15px;
+    
+}
+
+.input3{
+    border: 1.5px solid #9e9e9e;
+    width: 320px;
+    height: 37px;
+    margin-top: 10px;
+    padding-left: 9px;
+}
+
+/* Style for the demarcation line */
+.border-line {
+    width: 1px;
+    background-color: #ccc;
+    
+}
+
+.message-container {
+    flex: 1;
+    padding: 20px;
+    margin-top: 27px;
+}
+
+.message-container h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 555;
+    
+}
+
+.input4{
+    border: 1.5px solid #9e9e9e;
+    width: 320px;
+    height: 37px;
+    margin-top: 10px;
+    padding-left: 9px;
+}
+
+.input5{
+    border: 1.5px solid #9e9e9e;
+    width: 320px;
+    height: 37px;
+    margin-top: 26px;
+    padding-left: 9px;
+
+}
+
+.input6{
+    border: 1.5px solid #9e9e9e;
+    width: 320px;
+    height: 110px;
+    margin-top: 17px;
+    padding-left: 9px;
+    
+}
+
+.btn{
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    margin-left: 204px;
+    font-weight: 600; 
+    width: 120px; 
+}
+
+.map{
+    margin-left: 400px;
+    margin-top: 250px;
+    margin-bottom: 30px;
+}
+
+.Last-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F37335;
+    color: white;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    padding:  1.1rem  1.1rem; 
+  }
+  
+  footer {
+    background-color: #000000;
+    padding-bottom: 50px;
+    
+  }
+  
+  .footer-allign {
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding-top: 40px;
+  }
+  
+  .leu {
+    width: 150px;
+    height: 30px;
+    margin-left: 90px; /* Add margin to separate the logo from the list */
+    margin-right: 490px;
+  }
+  
+  footer ul {
+    list-style: none;
+    position: relative;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  footer li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 10px;
+    line-height: 55px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  footer ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+  }
+  
+  .drop {
+    width: 14px;
+    margin-left: 5px;
+    color: white;
+  }
+  
+  footer ul ul li {
+    width: 130px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  footer a:hover {
+    background-color: #F37335;
+  }
+  
+  /* Display Dropdown on Hover */
+  footer ul li:hover > ul {
+    display: inherit;
+  }
+  
+  .line {
+    width: 1200px;
+    height: 1.2px;
+    background-color: white;
+    margin: 20px auto; /* Center the line horizontally */
+    margin-top: 150px;
+  }
+  
+  .cookies{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }

@@ -1,0 +1,488 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    background-color:#ffffff ;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    width:150px;
+    height: 30px;
+    padding-left: 50px;
+    margin-top: 12px;
+    margin-right: 250px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    background-color: #ffffff;
+    
+}
+nav a{
+    display: block;
+    padding: 0 10px;
+    color: #000000;
+    line-height: 55px;
+    font-size: 17px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* Hide Dropdown by Default*/
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+    
+}
+/* hover */
+nav a:hover{
+    background-color:  #F37335;
+    ;
+}
+/* Display Dropdown on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li{
+    width: 140px;
+    float: none;
+    display: list-item;
+    position: relative;
+    
+}
+
+.arrow{
+    width: 11px;
+    margin-left: 5px;
+    color: #000000;
+}
+
+.button {
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    margin-left: 260px;
+    font-weight: 600;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./about\ pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+h2{
+    padding-top: 250px;
+    text-align: center;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60px;
+    padding-bottom: 15px;
+}
+
+p{
+    text-align: center; 
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container2{
+    display: inline-flex;
+    margin-bottom: 40px;
+}
+
+.explore{
+    padding-left: 70px;
+    font-size:250%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 70px;
+}
+
+
+
+.experience{
+    padding-top: 83.5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 230px;
+    color: #000000;
+}
+
+  /* Container with 500px width and 800px height */
+  .vertical-container {
+    width: 490px;
+    height: 630px;
+    background-image: url(./job.jpg);
+    background-size: cover;
+    float: left; /* To make it float to the left */
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+/* Containers beside the main container with 700px width and 380px height */
+.side-container1 {
+    width: 600px;
+    height: 300px;
+    margin-left: 10px; /* Add some margin for spacing */
+    float: left; /* To make them float to the left */
+    margin-block-end: 30px;
+    margin-inline: 38px;
+    background-image: url(./corp.jpg);
+    background-size: cover;
+}
+
+.side-container2 {
+    width: 600px;
+    height: 300px;
+    margin-left: 10px; /* Add some margin for spacing */
+    float: left; /* To make them float to the left */
+    margin-inline: 38px;
+    background-image: url(./business.jpg);
+    background-size: cover;
+}
+
+.bottom-container{
+    width: 1140px;
+    height: 400px;
+    margin-top: 670px;
+    margin-left: 70px;
+    background-image: url(kids.jpg);
+    background-size: cover;
+    margin-bottom: 130px;
+}
+
+.jobs{
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1300;
+    font-size:xx-large;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.jobs-text{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.btn1{
+     border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.corp{
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1300;
+    font-size:xx-large;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.corp-text{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.btn2{
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.business{
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1300;
+    font-size:xx-large;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.business-text{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.btn3{
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.kids{
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1300;
+    font-size:xx-large;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-bottom: 10px; 
+}
+
+.kids-text{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.btn4{
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.Team{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+}
+
+.team-speech{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    padding-top: 10px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.team-member{
+    text-align: start;
+}
+
+.team-member h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+}
+
+.team-leads{
+   padding-left: 140px; 
+   margin-bottom: 90px;
+   display: inline-flex;
+}
+
+.team1{
+    width:270px;
+    padding-right: 14px;
+}
+
+.team2{
+    width:270px;
+    padding-right: 14px;
+}
+
+.team3{
+    width:270px; 
+    padding-right: 14px;
+}
+
+.team4{
+    width:270px; 
+    padding-right: 14px;
+}
+
+.position{
+    color: #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+}
+
+.testimonials{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+  }
+  
+  .review{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+  .comment{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 4px;
+    color: #000000;
+  }
+  
+  .container5{
+    display:inline-flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .Frame{
+    width: 410px;
+    height: 270px;
+    border: 1px solid #ccc; 
+    color: #000000;
+    margin-left: 29px;
+    transition: transform 0.5s ease;
+    box-sizing: border-box;
+  }
+  
+  .testimony-in{
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .cartoon{
+    padding-left: 170px;
+    padding-top: 20px;
+  }
+  
+  .name{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .speech{
+    text-align: center;
+    padding-top: 10px;
+    color: #000000;
+  }
+  
+  .double-arrow2{
+    margin-top: 10px;
+    padding-left: 1200px;
+    
+  }
+
+  .arrow2{
+    padding-left: 18px;
+}
+
+  
+  .container8{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F37335;
+    color: white;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    padding:  1.1rem  1.1rem; 
+  }
+  
+  footer {
+    background-color: #000000;
+    padding-bottom: 50px;
+    
+  }
+  
+  .footer-allign {
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding-top: 40px;
+  }
+  
+  .leu {
+    width: 150px;
+    height: 30px;
+    margin-left: 90px; /* Add margin to separate the logo from the list */
+    margin-right: 490px;
+  }
+  
+  footer ul {
+    list-style: none;
+    position: relative;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  footer li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 10px;
+    line-height: 55px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  footer ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+  }
+  
+  .drop {
+    width: 14px;
+    margin-left: 5px;
+    color: white;
+  }
+  
+  footer ul ul li {
+    width: 140px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  footer a:hover {
+    background-color: #F37335;
+  }
+  
+  /* Display Dropdown on Hover */
+  footer ul li:hover > ul {
+    display: inherit;
+  }
+  
+  .line {
+    width: 1200px;
+    height: 1.2px;
+    background-color: white;
+    margin: 20px auto; /* Center the line horizontally */
+    margin-top: 150px;
+  }
+  
+  .cookies{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }

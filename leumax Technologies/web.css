@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(253, 252, 252);
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    background-color:#ffffff ;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+.logo{
+    width:150px;
+    height: 30px;
+    padding-left: 50px;
+    margin-top: 12px;
+    margin-right: 250px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    background-color: #ffffff;
+    
+}
+nav a{
+    display: block;
+    padding: 0 10px;
+    color: #000000;
+    line-height: 55px;
+    font-size: 17px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* Hide Dropdown by Default*/
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+    
+}
+/* hover */
+nav a:hover{
+    background-color:  #F37335;
+    ;
+}
+/* Display Dropdown on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li{
+    width: 140px;
+    float: none;
+    display: list-item;
+    position: relative;
+    
+}
+
+.arrow{
+    width: 11px;
+    margin-left: 5px;
+    color: #000000;
+}
+
+.button {
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    margin-left: 260px;
+    font-weight: 600;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./web\ dev\ guy.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* padding-bottom: 90px; */
+    
+}
+
+h2{
+    padding-top: 250px;
+    text-align: center;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60px;
+    padding-bottom: 15px;
+}
+
+p{
+    text-align: center; 
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.course-details{
+    width: 820px;
+    height: 1000px;
+    border: 2px solid #CCCCCC;
+    margin-left: 290px;
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 40px;
+    padding-top: 39px; 
+}
+
+.horizontal-line {
+    width: 730px;
+    height: 2px; 
+    background-color:  #CCCCCC;
+    margin: 17px auto; 
+}
+
+.details{
+    text-align: left;
+    color: #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 780px;
+    padding-left: 40px;
+    margin-bottom: 35px;
+}
+
+.details2{
+    text-align: left;
+    color: #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 780px;
+    padding-left: 40px;
+    margin-bottom: 35px;
+}
+
+.details3{
+    text-align: left;
+    color: #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 780px;
+    padding-left: 40px;
+    
+}
+
+.list-container {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.list {
+    line-height: 1.8;
+    padding-right: 197px;
+}
+
+
+
+.list img {
+    vertical-align: middle; /* Align images vertically in the middle */
+    margin-right: 10px; /* Add margin to separate images and text */
+}
+
+.quote-container{
+  position: relative;
+ 
+}
+
+.quote-container h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 40px;
+    padding-top: 39px; 
+    margin-top: 40px;
+}
+
+.input1{
+    border: 1.5px solid #747474;
+    width: 650px;
+    height: 37px;
+    margin-top: 17px;
+    padding-left: 9px;
+    margin-left: 40px;
+    
+}
+
+.input2{
+    border: 1.5px solid #000000;
+    width: 650px;
+    height: 37px;
+    margin-top: 17px;
+    padding-left: 9px;
+    margin-left: 40px;
+  
+}
+
+.input3{
+    border: 1.5px solid #000000;
+    width: 650px;
+    height: 37px;
+    margin-top: 17px;
+    padding-left: 9px;
+    margin-left: 40px;
+    
+}
+
+
+
+.input4{
+    border: 1.5px solid #000000;
+    width: 650px;
+    height: 110px;
+    margin-top: 17px;
+    padding-left: 9px;
+    margin-left: 40px;
+    padding-top: 0%;
+   
+}
+
+
+.btn{
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    margin-left: 573px;
+    font-weight: 600; 
+    width: 120px; 
+    
+}
+
+.container2{
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+.it-solutions{
+    padding-left: 70px;
+    font-size:250%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 900px;
+}
+
+.paragraph{
+    padding-top: 900px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 230px;
+    color: #000000;
+    text-align: left;
+    line-height: 25px;
+}
+
+.container3{
+    display: inline-flex;
+    
+    
+}
+
+.tile{
+    width: 350px;
+    height: 240px;
+     margin-top: 45px;
+     margin-left: 70px;
+  }
+
+.inner-box1{
+    width: 100%;
+    height: 100%;
+    background-color: #FDF9E3;
+    
+  }
+  .inner-box2{
+    width: 100%;
+    height: 100%;
+    background-color:  #E2EDFF;
+    
+  }
+  .inner-box3{
+    width: 100%;
+    height: 100%;
+    background-color: #FFEADF;
+
+  }
+  .inner-box4{
+    width: 100%;
+    height: 100%;
+    background-color:  #DFFCDE;
+
+  }
+  .inner-box5{
+    width: 100%;
+    height: 100%;
+    background-color:  #EEE0FF;
+ 
+  }
+  .inner-box6{
+    width: 100%;
+    height: 100%;
+    background-color: #DFFFFD;
+  }
+
+  .head-box{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+  .paragraph-box{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    padding-left: 20px;
+    color: #000000;
+    text-align: left;
+  }
+
+  .learn-more {
+    display: flex; /* Use flexbox to align text and arrow horizontally */
+    align-items: center; /* Vertically center text and arrow */
+  }
+
+  .learn-more a{
+    text-decoration: none;
+  }
+
+  .arrow-up{
+    width: 10px;
+    background-color: transparent;
+    margin-left: 5px; 
+    padding-top: 30px;
+    
+   }
+ 
+   .head{
+     padding-top: 30px;
+     padding-left: 20px;
+     color: #000000;
+     vertical-align: middle;
+   }
+
+   .double-arrow{
+    padding-left: 1200px;
+    padding-top: 10px;
+}
+
+.arrow2{
+    padding-left: 18px;
+}
+
+.Last-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F37335;
+    color: white;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    padding:  1.1rem  1.1rem; 
+    padding-top: 0%;
+  }
+  
+  footer {
+    background-color: #000000;
+    padding-bottom: 50px;
+    
+  }
+  
+  .footer-allign {
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding-top: 40px;
+  }
+  
+  .leu {
+    width: 150px;
+    height: 30px;
+    margin-left: 90px; /* Add margin to separate the logo from the list */
+    margin-right: 490px;
+  }
+  
+  footer ul {
+    list-style: none;
+    position: relative;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  footer li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 10px;
+    line-height: 55px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  footer ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+  }
+  
+  .drop {
+    width: 14px;
+    margin-left: 5px;
+    color: white;
+  }
+  
+  footer ul ul li {
+    width: 130px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  footer a:hover {
+    background-color: #F37335;
+  }
+  
+  /* Display Dropdown on Hover */
+  footer ul li:hover > ul {
+    display: inherit;
+  }
+  
+  .line {
+    width: 1200px;
+    height: 1.2px;
+    background-color: white;
+    margin: 20px auto; /* Center the line horizontally */
+    margin-top: 150px;
+  }
+  
+  .cookies{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }

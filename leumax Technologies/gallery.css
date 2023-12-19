@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    background-color:#ffffff ;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    width:150px;
+    height: 30px;
+    padding-left: 50px;
+    margin-top: 12px;
+    margin-right: 250px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    background-color: #ffffff;
+    
+}
+nav a{
+    display: block;
+    padding: 0 10px;
+    color: #000000;
+    line-height: 55px;
+    font-size: 17px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* Hide Dropdown by Default*/
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+    
+}
+/* hover */
+nav a:hover{
+    background-color:  #F37335;
+    ;
+}
+/* Display Dropdown on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li{
+    width: 140px;
+    float: none;
+    display: list-item;
+    position: relative;
+    
+}
+
+.arrow{
+    width: 11px;
+    margin-left: 5px;
+    color: #000000;
+}
+
+.button {
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    margin-left: 260px;
+    font-weight: 600;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./robot.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+h2{
+    padding-top: 250px;
+    text-align: center;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60px;
+    padding-bottom: 15px;
+}
+
+p{
+    text-align: center; 
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    margin-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    margin-left: 390px;
+   
+}
+
+.topic{
+    padding-top: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#toggleButton {
+    background-color: #ffffff;
+    color:#000000;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 470px;
+}
+
+#content {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+  .mission{
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 290px;
+  }
+
+ 
+
+
+.our-mission{
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 290px;
+}
+
+.header2{
+    display: flex;
+    margin-left: 390px;
+   
+}
+
+.topic1{
+    padding-top: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#toggleButton1{
+    background-color: #ffffff;
+    color:#000000;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 415px;
+}
+
+.header3{
+    display: flex;
+    margin-left: 390px;
+   
+}
+
+.Our-Goals{
+    color:#000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 290px;
+}
+
+.topic2{
+    padding-top: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#toggleButton2{
+    background-color: #ffffff;
+    color:#000000;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 284px;
+}
+
+.ai-section {
+    display: flex;
+    align-items: center;
+    margin-left: 290px;
+    margin-bottom: 130px;
+}
+
+.ai-image {
+    width: 322px; /* Adjust the width as needed */
+    margin-right: 20px; /* Add spacing between the image and content */
+    height: 350px;
+}
+
+.ai-content {
+    flex: 1; /* Allow the content to expand and take remaining space */
+    margin-inline: 75px;
+}
+
+.ai-content p{
+    color: #000000;
+    text-align: left;
+    line-height: 27px;
+}
+
+.ai-content h3{
+    color: #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 14px;
+}
+
+.btn{
+    border: none;
+    color: #ffffff;
+    background-color: #F37335;
+    padding:  0.6rem  0.6rem;
+    margin-top:12px ;
+    margin-left: 1px;
+    font-weight: 600;   
+}
+
+.container8{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F37335;
+    color: white;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    padding:  1.1rem  1.1rem; 
+  }
+  
+  footer {
+    background-color: #000000;
+    padding-bottom: 50px;
+    
+  }
+  
+  .footer-allign {
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding-top: 40px;
+  }
+  
+  .leu {
+    width: 150px;
+    height: 30px;
+    margin-left: 90px; /* Add margin to separate the logo from the list */
+    margin-right: 490px;
+  }
+  
+  footer ul {
+    list-style: none;
+    position: relative;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  footer li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 10px;
+    line-height: 55px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  footer ul ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+  }
+  
+  .drop {
+    width: 14px;
+    margin-left: 5px;
+    color: white;
+  }
+  
+  footer ul ul li {
+    width: 140px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  footer a:hover {
+    background-color: #F37335;
+  }
+  
+  /* Display Dropdown on Hover */
+  footer ul li:hover > ul {
+    display: inherit;
+  }
+  
+  .line {
+    width: 1200px;
+    height: 1.2px;
+    background-color: white;
+    margin: 20px auto; /* Center the line horizontally */
+    margin-top: 150px;
+  }
+  
+  .cookies{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
